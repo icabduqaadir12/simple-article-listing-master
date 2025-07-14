@@ -83,6 +83,19 @@
       }
 
 
+      @media (max-width: 412px) {
+        article {
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left: 40px;
+        }
+
+        article .content {
+            width: 100%;
+        }
+      }
+
+
       @media (min-width: 768px) {
         main {
             max-width: 750px;
@@ -90,5 +103,11 @@
 
         main h1 {
             font-size: 36px;
+        }
+      }
+
+      @media (min-width: 1024px) {
+        main h1 {
+            font-size: 46px;
         }
       }

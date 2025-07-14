@@ -1,6 +1,6 @@
 # DevChallenges.io - Simple Article Listing
 
-![Screenshot](./screenshot.png)
+![Screenshot](./design/showcase.jpg)
 
 ## 👋 Welcome!
 
@@ -57,9 +57,6 @@ Then open `index.html` in your browser — no server needed.
 This project is live on GitHub Pages:  
 👉 https://icabduqaadir12.github.io/simple-article-listing-master/
 
-You can also deploy it to:
-- Netlify
-- Vercel
 
 ## 👤 Author
 
