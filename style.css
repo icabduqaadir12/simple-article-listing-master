@@ -79,7 +79,7 @@
       }
 
 
-      @media (max-width: 412px) {
+      @media (max-width: 640px) {
         article {
             flex-direction: column;
             align-items: flex-start;
@@ -87,7 +87,12 @@
         }
 
         article .content {
-            width: 100%;
+            width: 60%;
+            flex: unset;
+        }
+
+        article .content h2 {
+            font-size: 20px;
         }
       }
 
