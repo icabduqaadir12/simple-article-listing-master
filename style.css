@@ -22,11 +22,11 @@
         align-items: center;
         justify-content: center;
         gap: 30px;
-        margin-top: 50px;
+        margin-top: 20px;
       }
 
       main h1 {
-        font-size: 34px;
+        font-size: 36px;
         font-weight: 600;
         text-align: center;
       }
@@ -46,17 +46,13 @@
       }
 
       article img {
-        border-radius: 5px;
+        border-radius: 10px;
         width: 100%;
         object-fit: cover;
-        flex: 1;
         max-width: 200px;
         height: 175px;
       }
 
-      article .content {
-        flex: 3;
-      }
 
       article .content h2 {
         font-size: 20px;
@@ -103,11 +99,5 @@
 
         main h1 {
             font-size: 36px;
-        }
-      }
-
-      @media (min-width: 1024px) {
-        main h1 {
-            font-size: 46px;
         }
       }
